@@ -3,7 +3,7 @@ Mi segunda página web en HTML
 
 Esta pagina web fue diseñada para la accesibilidad de los usuarios y entendimiento de una pagina web
 con letra clara y seccionado para su funcionalidad y rapidez, esta pagina web esta echa con HTML y se especializa al usuario
-el usuario podra registrase en un formulario, interactuar con la pagina y ver videos por medio de imagenes.
+el usuario podra registrase en un formulario, interactuar con la pagina y ver videos por medio de imagenes, hay imagenes que poseen interaccion y detallaran informacion.
 
 
 REQUISITOS DE LA PAGINA WEB:
