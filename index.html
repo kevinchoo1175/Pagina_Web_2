@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <section id="Inicio" style="display: flex;">
+        <img src="icons8-mundo-50.png" alt="50px" width="50">
+        <h1>Disol Motor´s Injection</h1>
+    </section>
+    <meta charset="UTF-8">
+    <title>Disol Motor´s Injection</title>
+    <p>Bienvenido a Disol Motor´s Injection</p>
+</head>
+<body bgcolor="pink">
+  <nav>
+    <ul style="display: flex;">
+      <li style="margin-left: 40px;"><a href="#Inicio">Inicio</a></li>
+      <li style="margin-left: 40px;"><a href="#Formulario">Formulario</a></li>
+      <li style="margin-left: 40px;"><a href="#Imagen/Video">Imagenes y video</a></li>
+      <li style="margin-left: 40px;"><a href="#Tabla">Tabla</a></li>
+      <li style="margin-left: 40px;"><a href="https://portal.senasofiaplus.edu.co/">SENA</a></li>
+    </ul>
+    <hr>
+  </nav>
+<section id="Formulario" style="display: flex;">
+  <img src="icons8-formulario-50.png" alt="50%" width="40px" height="40px">
+  <h2>Formulario de Registro</h2>
+</section>
+<section style="border: double;width: 300px;">
+  <form action="" method="POST">
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" placeholder="Tu nombre" id="nombre" name="nombre" required><br><br>
+    <label for="Fecha">Fecha de Solicitud:</label><br>
+    <input type="date" id="Fecha" name="Fecha" pattern="\d{8}" maxlength="8" required title="Ingrese 8 números en formato ddmmaaaa"><br><br>
+    <input type="checkbox" id="miCheckbox" name="opcion" value="valor">
+    <label for="miCheckbox">Opción</label>
+    <br>
+    <input type="radio" name="opcion" value="1"> Opción 1
+    <br>
+    <input type="radio" name="opcion" value="2" checked> Opción 2
+    <br>
+    <input type="radio" name="opcion" value="3"> Opción 3
+    <br>
+    <input type="submit" value="Enviar">
+  </form>
+</section>
+  <hr>
+
+<section id="Imagen/Video" style="display: flex;">
+  <img src="imagesxd.jpg" alt="50%" width="40px" height="40px">
+  <h1>Imagenes y Videos</h1>
+</section>
+
+<img src="imagesxd.jpg" alt="">
+
+<a href="https://www.nissan.com.co/" target="_blank">
+  <img src="https://www.nissan-cdn.net/content/dam/Nissan/co/prensa/2024/Julio/Eventos/2Nuevo-gerente-de-mercadeo-Nissan-Colombia%20(1).jpg.ximg.l_6_m.smart.jpg" alt="200px" style="width:200px;">
+</a>
+<br>
+
+<video width="640" height="360" controls>
+    <source src="https://www.youtube.com/watch?v=Bg7mfhwV7Qw" type="video/mp4" />
+  </video>
+  <br>
+
+  <button><a href="https://www.youtube.com/watch?v=Bg7mfhwV7Qw">Video</a></button>
+  
+  <hr>
+<table id="Tabla" border="1" cellpadding="5" cellspacing="8">
+    <thead>
+        <tr>
+            <th><font color="green"><u>Nombre</u></font></th>
+            <th><font color="red"><u>Edad</u></font></th>
+            <th><font color="red"><u>Ciudad</u></font></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Juan</td>
+            <td>25</td>
+            <td>Bogotá</td>
+        </tr>
+        <tr>
+            <td>María</td>
+            <td>30</td>
+            <td>Medellín</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>28</td>
+            <td>Cali</td>
+        </tr>
+    </tbody>
+</table>
+<footer>
+  <h1>Pie de pagina</h1>
+  <p>Lorem ipsum dolor sit, <mark>amet consectetur</mark> adipisicing elit. Omnis commodi non ducimus magnam, molestias nostrum impedit, modi dolore quam consequuntur corporis fuga doloremque quae maxime nam rerum, nemo soluta accusantium.</p>
+</footer>
+</body>
+</html>
